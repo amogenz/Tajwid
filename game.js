@@ -5,6 +5,12 @@
 
 import { AMOGENZ_DB_TAJWID } from './amogenzdb-tajwid.js';
 
+window.addEventListener('load', () => {
+  setTimeout(() => {
+    document.getElementById('splash-screen').classList.add('hide');
+  }, 1700);
+});
+
 // ---- PIXEL SOUND ENGINE ----
 const SFX = (() => {
   const ac = window._ac;
