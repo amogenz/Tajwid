@@ -449,7 +449,7 @@ function showMilestone(correct, wrong, word, onNext) {
 
 // ---- SHARE / SCREENSHOT ----
 async function shareResult(card, pangkat, correct, wrong, word, pesan) {
-  const shareText = `🕌 TAJWID AI — AMOGENZ\n\n${pangkat}\nLafadz: ${word}\n✅ Benar: ${correct}/6  ❌ Salah: ${wrong}/6\n\n"${pesan}"\n\n🔗 Coba juga di amogenz.xyz`;
+  const shareText = `🕌 TAJWID AI — AMOGENZ\n\n${pangkat}\nLafadz: ${word}\n✅ Benar: ${correct}/6  ❌ Salah: ${wrong}/6\n\n"${pesan}"\n\n🔗 Coba juga di tajwid.amogenz.xyz`;
 
   // Coba screenshot dulu pakai html2canvas
   if (typeof html2canvas !== 'undefined') {
